@@ -6,3 +6,19 @@ This paper presents design of UART module for serial communication used for shor
 ## Introduction
 It is a 40-pin-pad-frame communication chip that integrated a transmitter and a receiver, implementing the UART protocol in 6-stage FSM based on 2-phase clocking. 
 
+In this project, I went through the whole ASIC design flow:
+* Front-end coding in Verilog (**./rtl**)
+* Pre-simulation in Modelsim (**./Modelsim**)
+https://github.com/Casear98/ASIC-Implementation-UART/issues/2#issue-771703773
+* Synthesis in Design Compiler with TCL (**./Syn**)
+* Post-Synthesis_Simulation
+![Modelsim_post_DC](https://user-images.githubusercontent.com/58098260/102724449-46246b00-4318-11eb-8863-80adedae4410.png)
+
+* Layout in ICC (**./Pnr**)
+![1605784457296](https://user-images.githubusercontent.com/58098260/102724387-eded6900-4317-11eb-9a4e-ab056acb1fd6.jpg)
+
+* Translate layout in Magic (**./Magic**)
+![Magic](https://user-images.githubusercontent.com/58098260/102724411-02316600-4318-11eb-9c13-08d4a6b7a066.png)
+* Layout verificate in Irsim (**./Irsim**)
+![Irsim](https://user-images.githubusercontent.com/58098260/102724427-22f9bb80-4318-11eb-98ef-b6ea14015d03.png)
+
