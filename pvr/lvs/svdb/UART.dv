@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/UART.dv
+dv_start notcompared
+dv_cell {UART} {UART} notcompared
+dv_obj_count -transformed_nets {62 893} -transformed_inst {0 1289} -transformed_port {62 64}
+dv_end

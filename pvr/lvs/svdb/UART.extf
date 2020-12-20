@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 1
+lvs_ExtOutFile RUNDIR /home/ahesham/Desktop/Abdelazeem/UART_ASIC/pvr/lvs
+lvs_ExtOutFile RULES_FILE calibreLVS.rul
+lvs_ExtRunTimes 1513812434 1513812435

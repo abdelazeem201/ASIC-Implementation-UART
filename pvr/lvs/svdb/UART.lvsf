@@ -1,0 +1,7 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/ahesham/Desktop/Abdelazeem/UART_ASIC/pvr/lvs
+lvs_LvsfVersion 1
+lvs_LvsOutFile LVS_REPORT lvs.rep
+lvs_LvsOutFile SOURCE_NETLIST ./spice/UART.sp
+lvs_LvsOutFile RULES_FILE calibreLVS.rul
+lvs_LvsRunTimes 1513812435 1513812435
