@@ -1,0 +1,149 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/storage-home/l/lj13/demo/DEV422/Modelsim
+T_opt
+!s110 1554483825
+Vcd0=<lY[9iAUEP[b]m_]b2
+04 7 4 work UART_tb fast 0
+=1-3cfdfe22dd20-5ca78a71-18496-14abc
+o-quiet -auto_acc_if_foreign -work work -debugdb +acc +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+vdlatch
+Z2 !s110 1554483818
+!i10b 1
+!s100 Y]l@49PUBRhdF^fo1nGmD1
+IkNVIWITcnM8^PTHQSFQKA0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1554480012
+8latch.v
+Flatch.v
+L0 1
+Z4 OL;L;10.7;67
+r1
+!s85 0
+31
+Z5 !s108 1554483817.000000
+Z6 !s107 UART.v|UART_TX.v|UARTtb.v|UART_RX.v|latch.v|dp.v|
+Z7 !s90 dp.v|latch.v|UART_RX.v|UARTtb.v|UART_TX.v|UART.v|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdp
+R2
+!i10b 1
+!s100 kWC?KSc;1gGI>cgnJMoRI1
+I_14kfdla6iZRIl76KSF]^2
+R3
+R0
+w1553972009
+8dp.v
+Fdp.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vrx_mainFSM
+R2
+!i10b 1
+!s100 8Ob[bV:=eiin7CmTlM7[o3
+IWjW[0UYe:=JVfiMCINk=^2
+R3
+R0
+w1554483799
+8UART_RX.v
+FUART_RX.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+nrx_main@f@s@m
+vtx_mainFSM
+R2
+!i10b 1
+!s100 FcA85d]8SoUfkT5IG^8cP1
+IjTBfCV4C]GZDFCW4I2DoB1
+R3
+R0
+w1554483615
+8UART_TX.v
+FUART_TX.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+ntx_main@f@s@m
+vUART
+R2
+!i10b 1
+!s100 9I<N01PXlBmMl1Nk`YjAI0
+IF@o1Yn7KDml5FMVOS@GFY3
+R3
+R0
+w1553956587
+8UART.v
+FUART.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@u@a@r@t
+vUART_tb
+R2
+!i10b 1
+!s100 HY3JNgS:cB4LKe3FNz9GA1
+InM[h@M2jTI5oL<X5AG^Yo1
+R3
+R0
+w1553956946
+8UARTtb.v
+FUARTtb.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+n@u@a@r@t_tb
