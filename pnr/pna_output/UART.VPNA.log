@@ -1,0 +1,47 @@
+
+Name of design : UART
+Number of cell instances in the design : 339
+Number of cell instance masters in the library : 22
+
+Processing power net VSS ...
+Number of power net wires : 1286
+Number of vias : 4148
+Average power dissipation in UART :   250.00 mW
+Power supply voltage :     1.20 V
+Assigning vias begins
+Assigning power net wires ...
+Constructing virtual grid ..
+Performing virtual connection ...
+Reading virtual power pads
+Extracting power net VSS ...
+Number of power pad nodes connecting to power net VSS : 4
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 4
+Number of resistors in VSS : 12834
+Number of nodes in VSS : 10884
+Performing network simulation
+Assigning netlists to simulation engine begins
+Assigning netlists to simulation engine finished
+Maximum IR drop in UART : 48.06 mV
+Maximum current in UART : 60.045 mA
+
+Processing power net VDD ...
+Number of power net wires : 1335
+Number of vias : 4976
+Average power dissipation in UART :   250.00 mW
+Power supply voltage :     1.20 V
+Assigning vias begins
+Assigning power net wires ...
+Constructing virtual grid ..
+Performing virtual connection ...
+Reading virtual power pads
+Extracting power net VDD ...
+Number of power pad nodes connecting to power net VDD : 4
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 4
+Number of resistors in VDD : 17397
+Number of nodes in VDD : 14370
+Performing network simulation
+Assigning netlists to simulation engine begins
+Assigning netlists to simulation engine finished
+Maximum IR drop in UART : 41.99 mV
+Maximum current in UART : 55.952 mA
+Overall takes     0.24 seconds
