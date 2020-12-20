@@ -1,0 +1,58 @@
+magic
+tech scmos
+timestamp 1000338511
+<< nwell >>
+rect 671 246 1003 330
+rect 670 -3 1003 246
+<< pwell >>
+rect 327 341 1003 673
+rect 327 -3 658 341
+<< psubstratepdiff >>
+rect 999 441 1000 670
+rect 330 424 1000 441
+rect 559 344 1000 424
+rect 559 0 655 344
+<< nsubstratendiff >>
+rect 674 230 1000 327
+rect 674 89 770 230
+rect 673 1 770 89
+rect 999 1 1000 230
+rect 673 0 1000 1
+<< psubstratepcontact >>
+rect 330 441 999 670
+rect 330 0 559 424
+<< nsubstratencontact >>
+rect 770 1 999 230
+<< metal1 >>
+rect 999 441 1000 670
+rect 330 424 1000 441
+rect 559 423 1000 424
+rect 559 344 576 423
+rect 559 342 655 344
+rect 559 3 576 342
+rect 559 0 655 3
+rect 674 326 1000 327
+rect 674 247 675 326
+rect 999 247 1000 326
+rect 674 244 1000 247
+rect 753 230 1000 244
+rect 753 1 770 230
+rect 999 1 1000 230
+rect 753 0 1000 1
+<< m2contact >>
+rect 576 344 1000 423
+rect 576 3 655 342
+rect 675 247 999 326
+rect 674 0 753 244
+<< metal2 >>
+rect 330 441 1000 670
+rect 330 0 560 441
+rect 576 342 655 344
+rect 576 0 655 3
+rect 674 326 1000 327
+rect 674 247 675 326
+rect 999 247 1000 326
+rect 674 246 1000 247
+rect 674 244 753 246
+rect 769 0 1000 230
+<< end >>

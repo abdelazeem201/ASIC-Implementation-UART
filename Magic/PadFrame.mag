@@ -1,0 +1,180 @@
+magic
+tech scmos
+timestamp 1554896825
+use PadFC  16_0
+timestamp 1000338511
+transform 1 0 -2500 0 1 1500
+box 327 -3 1003 673
+use PadBiDir  17_0
+timestamp 1522814538
+transform 1 0 -1500 0 1 1500
+box -36 -19 303 1000
+use PadBiDir  17_1
+timestamp 1522814538
+transform 1 0 -1200 0 1 1500
+box -36 -19 303 1000
+use PadBiDir  17_2
+timestamp 1522814538
+transform 1 0 -900 0 1 1500
+box -36 -19 303 1000
+use PadBiDir  17_3
+timestamp 1522814538
+transform 1 0 -600 0 1 1500
+box -36 -19 303 1000
+use PadBiDir  17_4
+timestamp 1522814538
+transform 1 0 -300 0 1 1500
+box -36 -19 303 1000
+use PadVdd  18_0
+timestamp 1522810018
+transform 1 0 300 0 1 1500
+box -3 -12 303 1000
+use PadBiDir  17_5
+timestamp 1522814538
+transform 1 0 0 0 1 1500
+box -36 -19 303 1000
+use PadBiDir  17_6
+timestamp 1522814538
+transform 1 0 600 0 1 1500
+box -36 -19 303 1000
+use PadBiDir  17_7
+timestamp 1522814538
+transform 1 0 900 0 1 1500
+box -36 -19 303 1000
+use PadFC  16_1
+timestamp 1000338511
+transform 0 1 1500 -1 0 2500
+box 327 -3 1003 673
+use PadBiDir  17_8
+timestamp 1522814538
+transform 1 0 1200 0 1 1500
+box -36 -19 303 1000
+use PadBiDir  17_9
+timestamp 1522814538
+transform 0 -1 -1500 1 0 1200
+box -36 -19 303 1000
+use PadBiDir  17_10
+timestamp 1522814538
+transform 0 -1 -1500 1 0 900
+box -36 -19 303 1000
+use PadBiDir  17_11
+timestamp 1522814538
+transform 0 -1 -1500 1 0 600
+box -36 -19 303 1000
+use PadBiDir  17_12
+timestamp 1522814538
+transform 0 -1 -1500 1 0 300
+box -36 -19 303 1000
+use PadBiDir  17_17
+timestamp 1522814538
+transform 0 1 1500 1 0 1200
+box -36 -19 303 1000
+use PadBiDir  17_18
+timestamp 1522814538
+transform 0 1 1500 1 0 900
+box -36 -19 303 1000
+use PadBiDir  17_19
+timestamp 1522814538
+transform 0 1 1500 1 0 600
+box -36 -19 303 1000
+use PadBiDir  17_20
+timestamp 1522814538
+transform 0 1 1500 1 0 300
+box -36 -19 303 1000
+use PadGnd  19_0
+timestamp 1522810115
+transform 0 -1 -1500 -1 0 300
+box -3 -11 303 1000
+use PadBiDir  17_21
+timestamp 1522814538
+transform 0 1 1500 1 0 0
+box -36 -19 303 1000
+use PadBiDir  17_13
+timestamp 1522814538
+transform 0 -1 -1500 -1 0 0
+box -36 -19 303 1000
+use PadBiDir  17_14
+timestamp 1522814538
+transform 0 -1 -1500 1 0 -600
+box -36 -19 303 1000
+use PadBiDir  17_15
+timestamp 1522814538
+transform 0 -1 -1500 1 0 -900
+box -36 -19 303 1000
+use PadBiDir  17_16
+timestamp 1522814538
+transform 0 -1 -1500 1 0 -1200
+box -36 -19 303 1000
+use PadGnd  19_1
+timestamp 1522810115
+transform 0 1 1500 -1 0 0
+box -3 -11 303 1000
+use PadBiDir  17_22
+timestamp 1522814538
+transform 0 1 1500 1 0 -600
+box -36 -19 303 1000
+use PadBiDir  17_23
+timestamp 1522814538
+transform 0 1 1500 1 0 -900
+box -36 -19 303 1000
+use PadBiDir  17_24
+timestamp 1522814538
+transform 0 1 1500 1 0 -1200
+box -36 -19 303 1000
+use PadBiDir  17_25
+timestamp 1522814538
+transform 0 -1 -1500 1 0 -1500
+box -36 -19 303 1000
+use PadFC  16_2
+timestamp 1000338511
+transform 0 -1 -1500 1 0 -2500
+box 327 -3 1003 673
+use PadBiDir  17_26
+timestamp 1522814538
+transform 1 0 -1500 0 -1 -1500
+box -36 -19 303 1000
+use PadBiDir  17_27
+timestamp 1522814538
+transform 1 0 -1200 0 -1 -1500
+box -36 -19 303 1000
+use PadBiDir  17_28
+timestamp 1522814538
+transform 1 0 -900 0 -1 -1500
+box -36 -19 303 1000
+use PadBiDir  17_29
+timestamp 1522814538
+transform 1 0 -600 0 -1 -1500
+box -36 -19 303 1000
+use PadVdd  18_1
+timestamp 1522810018
+transform 1 0 -300 0 -1 -1500
+box -3 -12 303 1000
+use PadBiDir  17_30
+timestamp 1522814538
+transform 1 0 0 0 -1 -1500
+box -36 -19 303 1000
+use PadBiDir  17_31
+timestamp 1522814538
+transform 1 0 300 0 -1 -1500
+box -36 -19 303 1000
+use PadBiDir  17_32
+timestamp 1522814538
+transform 1 0 600 0 -1 -1500
+box -36 -19 303 1000
+use PadBiDir  17_33
+timestamp 1522814538
+transform 1 0 900 0 -1 -1500
+box -36 -19 303 1000
+use PadBiDir  17_34
+timestamp 1522814538
+transform 0 1 1500 1 0 -1500
+box -36 -19 303 1000
+use PadFC  16_3
+timestamp 1000338511
+transform -1 0 2500 0 -1 -1500
+box 327 -3 1003 673
+use PadBiDir  17_35
+timestamp 1522814538
+transform 1 0 1200 0 -1 -1500
+box -36 -19 303 1000
+<< end >>

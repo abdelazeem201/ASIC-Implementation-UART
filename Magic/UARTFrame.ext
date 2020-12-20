@@ -1,0 +1,290 @@
+timestamp 1555511723
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T11Z
+scale 1000 1 30
+resistclasses 82400 102700 816000 816000 1 22300 41300 41300 90 90 60
+use UART UART_0 1 0 1543 0 1 1656
+use PadFrame PadFrame_0 1 0 2500 0 1 2500
+node "m3_1538_2318#" 0 79.5 1538 2318 rm3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 5
+node "m3_1537_2317#" 0 124.8 1537 2317 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 21
+node "p_rx_busy" 22 29014.1 2737 1061 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2235 1496 0 0
+equiv "p_rx_busy" "rx_busy"
+node "p_tx_idle" 24 30657.1 2547 1019 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2361 1580 0 0
+equiv "p_tx_idle" "rx_idle"
+node "p_tx_done" 30 36016.6 1946 1019 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3012 2014 0 0
+equiv "p_tx_done" "tx_done"
+node "p_reset" 29 37464 1861 1019 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2883 1928 0 0
+equiv "p_reset" "reset"
+node "p_rx_rdy" 42 48182.3 1348 1019 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4182 2794 0 0
+equiv "p_rx_rdy" "rx_rdy"
+node "p_tx_rdy" 34 43723.2 1262 1019 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3363 2248 0 0
+equiv "p_tx_rdy" "tx_rdy"
+node "p_clka" 25 59547.3 1019 1259 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7065 2836 49 28
+equiv "p_clka" "clka"
+node "p_tx_busy" 27 62250 1019 1347 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7450 2990 0 0
+equiv "p_tx_busy" "tx_busy"
+node "p_tx_error" 23 52636.9 1019 1648 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6339 2544 49 28
+equiv "p_tx_error" "tx_error"
+node "p_clkb" 15 34796.4 1019 2161 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4205 1692 56 30
+equiv "p_clkb" "clkb"
+node "p_tx_idle" 12 24601.9 1019 2450 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3285 1324 69 36
+equiv "p_tx_idle" "tx_idle"
+node "p_rx_done" 22 92011.4 3392 2606 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15920 3996 100 40
+node "p_tx_data[0]" 45 56789.3 2849 3296 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4497 3004 0 0
+equiv "p_tx_data[0]" "tx_data[0]"
+node "p_tx_data[1]" 36 45835.7 2833 3296 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3639 2432 0 0
+equiv "p_tx_data[1]" "tx_data[1]"
+node "p_tx_data[5]" 30 38520.2 2457 3296 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2964 1982 0 0
+equiv "p_tx_data[5]" "tx_data[5]"
+node "p_tx_data[4]" 21 27723.1 2433 3296 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2136 1430 0 0
+equiv "p_tx_data[4]" "tx_data[4]"
+node "p_tx_data[2]" 28 36290.4 2163 3811 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2793 1868 0 0
+equiv "p_tx_data[2]" "tx_data[2]"
+node "p_tx_data[7]" 37 47478.7 1863 3769 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3651 2440 0 0
+equiv "p_tx_data[7]" "tx_data[7]"
+node "p_tx_data[6]" 45 58510.6 1563 3745 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4497 3004 0 0
+equiv "p_tx_data[6]" "tx_data[6]"
+node "p_tx_data[3]" 54 69190.3 1262 3723 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5352 3574 0 0
+equiv "p_tx_data[3]" "tx_data[3]"
+node "p_rx_error" 24 73242.1 3516 1347 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1392 476 8094 2722 72 34
+node "p_rxrxout[1]" 81 145080 2820 3371 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 94 14029 7068 0 0
+equiv "p_rxrxout[1]" "rxrxout[1]"
+node "p_rxrxout[2]" 68 122542 2819 3382 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 176 96 11752 5944 0 0
+equiv "p_rxrxout[2]" "rxrxout[2]"
+node "p_rxrxout[3]" 63 111687 2816 3390 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 188 102 10647 5402 0 0
+equiv "p_rxrxout[3]" "rxrxout[3]"
+node "p_rxrxout[5]" 51 89712.4 2816 3400 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 188 102 8437 4322 0 0
+equiv "p_rxrxout[5]" "rxrxout[5]"
+node "p_rxrxout[4]" 45 79368.5 2813 3411 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 108 7373 3806 0 0
+equiv "p_rxrxout[4]" "rxrxout[4]"
+node "p_rxrxout[7]" 40 69528.1 2820 3421 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 94 6392 3344 0 0
+equiv "p_rxrxout[7]" "rxrxout[7]"
+node "p_rxrxout[6]" 35 59999.6 2820 3431 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 94 5430 2876 0 0
+equiv "p_rxrxout[6]" "rxrxout[6]"
+node "p_rxrxout[0]" 42 72859.9 2815 3442 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 104 6656 3500 0 0
+equiv "p_rxrxout[0]" "rxrxout[0]"
+node "VDD" 101 509677 1323 1075 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56886 15470 948 520 0 0
+node "m1_1019_2471#" 52 185277 1019 2471 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13146 4430 7056 2400 0 0
+node "GND" 105 556990 1011 2602 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63770 16906 432 288 0 0
+node "a_4009_3#" 136 3.65188e+06 4009 3 p 0 0 0 0 0 0 0 0 0 0 461096 3908 0 0 0 0 0 0 0 0 0 0
+node "a_2_1#" 136 3.80937e+06 2 1 p 0 0 0 0 0 0 0 0 0 0 480981 3988 0 0 0 0 0 0 0 0 0 0
+node "a_2823_1154#" 26 1.67401e+06 2823 1154 p 0 0 0 0 0 0 0 0 0 0 211365 1844 0 0 0 0 0 0 0 0 0 0
+node "a_1315_1207#" 108 1.14545e+06 1315 1207 p 0 0 0 0 0 0 0 0 0 0 144628 2018 0 0 0 0 0 0 0 0 0 0
+node "a_3477_2662#" 95 701395 3477 2662 p 0 0 0 0 0 0 0 0 0 0 88560 1518 0 0 0 0 0 0 0 0 0 0
+node "a_1435_3354#" 60 1.99864e+06 1435 3354 p 0 0 0 0 0 0 0 0 0 0 252354 2258 0 0 0 0 0 0 0 0 0 0
+node "a_4701_4010#" 77 2.27439e+06 4701 4010 p 0 0 0 0 0 0 0 0 0 0 287170 2564 0 0 0 0 0 0 0 0 0 0
+node "a_4010_4689#" 49 1.67394e+06 4010 4689 p 0 0 0 0 0 0 0 0 0 0 211356 1986 0 0 0 0 0 0 0 0 0 0
+node "a_336_4691#" 48 1.59952e+06 336 4691 p 0 0 0 0 0 0 0 0 0 0 201960 1932 0 0 0 0 0 0 0 0 0 0
+node "a_1_4033#" 74 2.20033e+06 1 4033 p 0 0 0 0 0 0 0 0 0 0 277820 2496 0 0 0 0 0 0 0 0 0 0
+cap "p_tx_idle" "m1_1019_2471#" 822
+cap "VDD" "GND" 457.2
+cap "p_tx_data[5]" "GND" 318.6
+cap "p_rx_busy" "VDD" 318.6
+cap "p_tx_data[1]" "p_rxrxout[7]" 242.4
+cap "p_tx_data[0]" "GND" 955.8
+cap "p_tx_idle" "GND" 5296.2
+cap "p_tx_data[4]" "GND" 318.6
+cap "p_rxrxout[2]" "VDD" 364.8
+cap "p_rx_rdy" "VDD" 318.6
+cap "p_clka" "GND" 411
+cap "VDD" "p_rxrxout[6]" 364.8
+cap "p_tx_data[0]" "p_rxrxout[2]" 242.4
+cap "p_tx_data[1]" "GND" 637.2
+cap "p_rx_rdy" "GND" 6695.4
+cap "p_tx_data[0]" "p_rxrxout[6]" 242.4
+cap "p_tx_error" "m1_1019_2471#" 822
+cap "p_rxrxout[2]" "p_tx_data[1]" 242.4
+cap "p_clkb" "m1_1019_2471#" 822
+cap "p_tx_data[1]" "p_rxrxout[6]" 242.4
+cap "p_tx_rdy" "GND" 318.6
+cap "p_rxrxout[4]" "VDD" 364.8
+cap "p_rxrxout[5]" "VDD" 364.8
+cap "p_tx_error" "GND" 822
+cap "p_tx_data[6]" "GND" 318.6
+cap "p_clkb" "GND" 822
+cap "p_rx_error" "p_rxrxout[1]" 364.8
+cap "p_tx_data[0]" "p_rxrxout[4]" 242.4
+cap "p_tx_data[0]" "p_rxrxout[5]" 242.4
+cap "p_reset" "VDD" 318.6
+cap "p_rxrxout[3]" "VDD" 364.8
+cap "p_rxrxout[0]" "VDD" 405.6
+cap "p_tx_data[1]" "p_rxrxout[4]" 242.4
+cap "p_tx_data[1]" "p_rxrxout[5]" 242.4
+cap "p_rxrxout[1]" "VDD" 364.8
+cap "p_tx_data[0]" "p_rxrxout[3]" 242.4
+cap "p_tx_data[0]" "p_rxrxout[0]" 242.4
+cap "p_tx_data[2]" "GND" 318.6
+cap "p_tx_done" "VDD" 3366.6
+cap "p_tx_data[7]" "GND" 318.6
+cap "p_tx_data[0]" "p_rxrxout[1]" 242.4
+cap "p_rxrxout[3]" "p_tx_data[1]" 242.4
+cap "p_tx_data[1]" "p_rxrxout[0]" 242.4
+cap "p_rx_error" "VDD" 457.2
+cap "p_rx_error" "p_rx_done" 549.6
+cap "p_tx_data[1]" "p_rxrxout[1]" 242.4
+cap "p_tx_busy" "m3_1537_2317#" 123.6
+cap "m3_1537_2317#" "m1_1019_2471#" 115.2
+cap "p_tx_data[3]" "m1_1019_2471#" 637.2
+cap "p_tx_busy" "m3_1538_2318#" 78
+cap "VDD" "p_rxrxout[7]" 364.8
+cap "p_rx_done" "VDD" 1099.2
+cap "p_tx_idle" "VDD" 318.6
+cap "p_tx_busy" "GND" 822
+cap "p_tx_data[0]" "p_rxrxout[7]" 242.4
+cap "GND" "m1_1019_2471#" 1371.6
+cap "p_tx_data[3]" "GND" 318.6
+fet metal3Resistor 1538 2318 1539 2319 25 20 "Gnd!" "m3_1538_2318#" 0 0 "m3_1537_2317#" 0 0 "m3_1537_2317#" 15 0
+cap "PadFrame_0/17_25/OEN" "PadFrame_0/17_25/m3_n36_n11#" -1.13687e-13
+subcap "p_tx_rdy" -39456.4
+subcap "p_rx_rdy" -44826.2
+subcap "VDD" -501960
+subcap "p_reset" -32978.5
+subcap "p_tx_done" -31648.4
+subcap "p_tx_idle" -26602
+subcap "p_rx_busy" -25141.2
+cap "PadFrame_0/17_34/DO" "PadFrame_0/17_34/m3_n36_n11#" -2.84217e-14
+subcap "p_clka" -55741.3
+subcap "p_tx_busy" -58444
+cap "PadFrame_0/17_16/m3_n36_n11#" "PadFrame_0/17_16/DO" -2.84217e-14
+cap "PadFrame_0/17_24/m3_n36_n11#" "PadFrame_0/17_24/DO" -2.84217e-14
+subcap "p_tx_error" -48830.8
+cap "PadFrame_0/17_23/m3_n36_n11#" "PadFrame_0/17_23/DO" -2.84217e-14
+cap "PadFrame_0/17_22/m3_n36_n11#" "PadFrame_0/17_22/DO" -2.84217e-14
+subcap "p_clkb" -30990.4
+cap "UART_0/m2_14_13#" "UART_0/m1_38_567#" 1104
+subcap "m3_1538_2318#" -57
+subcap "p_tx_idle" -20875.6
+subcap "m1_1019_2471#" -178815
+cap "PadFrame_0/17_13/DO" "PadFrame_0/17_13/m3_n36_n11#" -2.84217e-14
+subcap "GND" -551423
+subcap "p_rx_done" -92832.1
+subcap "p_rx_done" -92828.1
+cap "PadFrame_0/17_21/m3_n36_n11#" "PadFrame_0/17_21/DO" -2.84217e-14
+subcap "GND" -524312
+subcap "p_rx_done" -89531.9
+subcap "p_rx_done" -87408.4
+subcap "a_3477_2662#" -694473
+cap "PadFrame_0/17_20/DO" "PadFrame_0/17_20/m3_n36_n11#" -2.84217e-14
+cap "PadFrame_0/17_19/DO" "PadFrame_0/17_19/m3_n36_n11#" -2.84217e-14
+subcap "p_tx_data[5]" -37255.3
+subcap "p_tx_data[4]" -26996
+subcap "p_tx_data[0]" -55397.3
+subcap "p_tx_data[1]" -44779.2
+subcap "p_tx_data[5]" -34608.2
+subcap "p_tx_data[4]" -23811.1
+subcap "p_tx_data[0]" -53346.7
+subcap "p_tx_data[1]" -42393.1
+subcap "p_rxrxout[1]" -137817
+subcap "p_rxrxout[2]" -114211
+subcap "p_rxrxout[3]" -106475
+subcap "p_rxrxout[5]" -87607.6
+cap "PadFrame_0/17_18/m3_n36_n11#" "PadFrame_0/17_18/DO" -2.84217e-14
+cap "PadFrame_0/17_17/m3_n36_n11#" "PadFrame_0/17_17/DO" -2.84217e-14
+cap "PadFrame_0/17_0/DO" "PadFrame_0/17_0/OEN" 270
+subcap "a_336_4691#" -1.59496e+06
+merge "PadFrame_0/17_7/OEN" "PadFrame_0/17_6/OEN" -90389.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8005 -2948 0 -144 0 0
+merge "PadFrame_0/17_6/OEN" "PadFrame_0/17_5/OEN"
+merge "PadFrame_0/17_5/OEN" "PadFrame_0/17_4/OEN"
+merge "PadFrame_0/17_4/OEN" "PadFrame_0/17_3/OEN"
+merge "PadFrame_0/17_3/OEN" "PadFrame_0/17_2/OEN"
+merge "PadFrame_0/17_2/OEN" "PadFrame_0/17_1/OEN"
+merge "PadFrame_0/17_1/OEN" "PadFrame_0/17_0/OEN"
+merge "PadFrame_0/17_0/OEN" "PadFrame_0/19_0/GND!"
+merge "PadFrame_0/19_0/GND!" "UART_0/m1_38_567#"
+merge "UART_0/m1_38_567#" "PadFrame_0/17_14/OEN"
+merge "PadFrame_0/17_14/OEN" "PadFrame_0/17_28/OEN"
+merge "PadFrame_0/17_28/OEN" "PadFrame_0/17_26/OEN"
+merge "PadFrame_0/17_26/OEN" "PadFrame_0/17_25/OEN"
+merge "PadFrame_0/17_25/OEN" "GND"
+merge "UART_0/tx_rdy" "PadFrame_0/17_26/DI" -3872.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -200 -206 0 0
+merge "PadFrame_0/17_26/DI" "p_tx_rdy"
+merge "PadFrame_0/17_16/DO" "p_tx_busy" -174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0
+merge "PadFrame_0/17_0/DI" "UART_0/tx_data[3]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/tx_data[3]" "p_tx_data[3]"
+merge "p_tx_data[3]" "tx_data[3]"
+merge "UART_0/rxrxout[5]" "rxrxout[5]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/tx_idle" "tx_idle" -3582.36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -390 -284 0 0
+merge "tx_idle" "PadFrame_0/17_13/DO"
+merge "PadFrame_0/17_13/DO" "UART_0/rx_idle"
+merge "UART_0/rx_idle" "PadFrame_0/17_30/DO"
+merge "PadFrame_0/17_30/DO" "p_tx_idle"
+merge "PadFrame_0/17_3/DI" "UART_0/tx_data[2]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/tx_data[2]" "p_tx_data[2]"
+merge "p_tx_data[2]" "tx_data[2]"
+merge "PadFrame_0/17_21/DO" "p_rxrxout[5]" -10944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -47 0 -569 0 0
+merge "PadFrame_0/17_9/OEN" "PadFrame_0/17_10/OEN" -1457.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 -12 -64 0 0
+merge "PadFrame_0/17_10/OEN" "PadFrame_0/17_11/OEN"
+merge "PadFrame_0/17_11/OEN" "PadFrame_0/17_12/OEN"
+merge "PadFrame_0/17_12/OEN" "PadFrame_0/17_13/OEN"
+merge "PadFrame_0/17_13/OEN" "UART_0/m1_14_667#"
+merge "UART_0/m1_14_667#" "m1_1019_2471#"
+merge "UART_0/rx_error" "PadFrame_0/17_24/DO" -345.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 25 -14
+merge "PadFrame_0/17_24/DO" "p_rx_error"
+merge "PadFrame_0/17_8/OEN" "PadFrame_0/17_17/OEN" -50473 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4018 -1604 0 -204 0 0
+merge "PadFrame_0/17_17/OEN" "PadFrame_0/17_18/OEN"
+merge "PadFrame_0/17_18/OEN" "PadFrame_0/17_19/OEN"
+merge "PadFrame_0/17_19/OEN" "PadFrame_0/17_20/OEN"
+merge "PadFrame_0/17_20/OEN" "PadFrame_0/17_21/OEN"
+merge "PadFrame_0/17_21/OEN" "PadFrame_0/17_22/OEN"
+merge "PadFrame_0/17_22/OEN" "UART_0/vdd"
+merge "UART_0/vdd" "PadFrame_0/17_23/OEN"
+merge "PadFrame_0/17_23/OEN" "PadFrame_0/17_24/OEN"
+merge "PadFrame_0/17_24/OEN" "PadFrame_0/17_34/OEN"
+merge "PadFrame_0/17_34/OEN" "PadFrame_0/17_35/OEN"
+merge "PadFrame_0/17_35/OEN" "PadFrame_0/17_33/OEN"
+merge "PadFrame_0/17_33/OEN" "PadFrame_0/17_32/OEN"
+merge "PadFrame_0/17_32/OEN" "PadFrame_0/17_31/OEN"
+merge "PadFrame_0/17_31/OEN" "PadFrame_0/17_30/OEN"
+merge "PadFrame_0/17_30/OEN" "PadFrame_0/18_1/Vdd!"
+merge "PadFrame_0/18_1/Vdd!" "PadFrame_0/17_29/OEN"
+merge "PadFrame_0/17_29/OEN" "PadFrame_0/17_27/OEN"
+merge "PadFrame_0/17_27/OEN" "VDD"
+merge "UART_0/rxrxout[4]" "rxrxout[4]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "PadFrame_0/17_25/DI" "p_clka" -174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0
+merge "PadFrame_0/17_15/DO" "p_tx_error" -174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0
+merge "PadFrame_0/17_2/DI" "UART_0/tx_data[7]" -110.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -6 0 0
+merge "UART_0/tx_data[7]" "p_tx_data[7]"
+merge "p_tx_data[7]" "tx_data[7]"
+merge "PadFrame_0/17_7/DI" "UART_0/tx_data[0]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/tx_data[0]" "p_tx_data[0]"
+merge "p_tx_data[0]" "tx_data[0]"
+merge "PadFrame_0/17_14/DI" "p_clkb" -174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -10 0 0
+merge "UART_0/clka" "clka" -141.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12
+merge "PadFrame_0/17_20/DO" "p_rxrxout[4]" -139.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "PadFrame_0/17_1/DI" "UART_0/tx_data[6]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/tx_data[6]" "p_tx_data[6]"
+merge "p_tx_data[6]" "tx_data[6]"
+merge "UART_0/rx_busy" "PadFrame_0/17_31/DO" -104.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6 0 0
+merge "PadFrame_0/17_31/DO" "p_rx_busy"
+merge "UART_0/reset" "PadFrame_0/17_28/DI" -4016.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -300 -206 0 0
+merge "PadFrame_0/17_28/DI" "p_reset"
+merge "UART_0/clkb" "clkb" -141.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5 -12
+merge "UART_0/rxrxout[2]" "rxrxout[2]" -92.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 -6 0 0
+merge "UART_0/rx_done" "PadFrame_0/17_33/DO" 1282.26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 714 -16 769 -14
+merge "PadFrame_0/17_33/DO" "p_rx_done"
+merge "PadFrame_0/17_23/DO" "p_rxrxout[2]" -20419.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2000 -1008 0 0
+merge "UART_0/rxrxout[1]" "rxrxout[1]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/rx_rdy" "PadFrame_0/17_27/DO" -4604.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81 -312 0 0
+merge "PadFrame_0/17_27/DO" "p_rx_rdy"
+merge "PadFrame_0/17_4/DI" "UART_0/tx_data[4]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/tx_data[4]" "p_tx_data[4]"
+merge "p_tx_data[4]" "tx_data[4]"
+merge "UART_0/rxrxout[6]" "rxrxout[6]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "PadFrame_0/17_18/DO" "p_rxrxout[6]" -139.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "PadFrame_0/17_34/DO" "p_rxrxout[1]" -20419.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2000 -1008 0 0
+merge "PadFrame_0/17_6/DI" "UART_0/tx_data[1]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/tx_data[1]" "p_tx_data[1]"
+merge "p_tx_data[1]" "tx_data[1]"
+merge "PadFrame_0/17_19/DO" "p_rxrxout[7]" -139.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "UART_0/rxrxout[3]" "rxrxout[3]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "PadFrame_0/17_22/DO" "p_rxrxout[3]" -25630.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -188 -102 -2228 -1139 0 0
+merge "UART_0/tx_done" "PadFrame_0/17_29/DO" -4094.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -462 -314 0 0
+merge "PadFrame_0/17_29/DO" "p_tx_done"
+merge "PadFrame_0/17_5/DI" "UART_0/tx_data[5]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/tx_data[5]" "p_tx_data[5]"
+merge "p_tx_data[5]" "tx_data[5]"
+merge "UART_0/rxrxout[7]" "rxrxout[7]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "UART_0/rxrxout[0]" "rxrxout[0]" -87.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -6 0 0
+merge "PadFrame_0/17_17/DO" "p_rxrxout[0]" -139.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "UART_0/tx_error" "tx_error" -135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 -12

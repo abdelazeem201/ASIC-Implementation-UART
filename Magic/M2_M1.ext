@@ -1,0 +1,7 @@
+timestamp 1554483974
+version 8.1
+tech scmos
+style AMI0.5um(amic5)from:T11Z
+scale 1000 1 30
+resistclasses 82400 102700 816000 816000 1 22300 41300 41300 90 90 60
+node "m1_n2_n2#" 0 678.24 -2 -2 v1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
