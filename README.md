@@ -25,7 +25,7 @@ In this project, I went through the whole ASIC design flow:
 * Layout verificate in Irsim (**./Irsim**)
 ![Irsim](https://user-images.githubusercontent.com/58098260/102724427-22f9bb80-4318-11eb-98ef-b6ea14015d03.png)
 
-Cleaned up DRC and LVS Violations using Calibre(**./pvr**).
+* Cleaned up DRC and LVS Violations using Calibre(**./pvr**).
 ![Calibre](https://user-images.githubusercontent.com/58098260/102727149-b0470b00-432c-11eb-891d-ab9874030f85.PNG)
 
-END
+*END*
