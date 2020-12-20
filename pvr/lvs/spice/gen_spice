@@ -1,0 +1,5 @@
+nettran -rootCell UART \
+        -verilog-b0 VSS -verilog-b1 VDD \
+	-sp /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Back_End/spice/NangateOpenCellLibrary.spi \
+	-verilog ../../../pnr/output/UART_icc.v \
+	-outType spice  -outName UART.sp
