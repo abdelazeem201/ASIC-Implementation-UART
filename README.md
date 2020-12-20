@@ -16,6 +16,8 @@ In this project, I went through the whole ASIC design flow:
 ![Modelsim_post_DC](https://user-images.githubusercontent.com/58098260/102724449-46246b00-4318-11eb-8863-80adedae4410.png)
 
 * Layout in ICC (**./Pnr**)
+
+
 ![ICC](https://user-images.githubusercontent.com/58098260/102724513-ac10f280-4318-11eb-9dbf-d5591986e6dd.jpg)
 
 * Translate layout in Magic (**./Magic**)
