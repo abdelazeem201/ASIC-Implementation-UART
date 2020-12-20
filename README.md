@@ -9,7 +9,8 @@ It is a 40-pin-pad-frame communication chip that integrated a transmitter and a 
 In this project, I went through the whole ASIC design flow:
 * Front-end coding in Verilog (**./rtl**)
 * Pre-simulation in Modelsim (**./Modelsim**)
-https://github.com/Casear98/ASIC-Implementation-UART/issues/2#issue-771703773
+![ModelSim](https://user-images.githubusercontent.com/58098260/102724352-ae268180-4317-11eb-80d4-453ea8b83d90.png)
+
 * Synthesis in Design Compiler with TCL (**./Syn**)
 * Post-Synthesis_Simulation
 ![Modelsim_post_DC](https://user-images.githubusercontent.com/58098260/102724449-46246b00-4318-11eb-8863-80adedae4410.png)
