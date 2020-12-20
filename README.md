@@ -15,7 +15,7 @@ https://github.com/Casear98/ASIC-Implementation-UART/issues/2#issue-771703773
 ![Modelsim_post_DC](https://user-images.githubusercontent.com/58098260/102724449-46246b00-4318-11eb-8863-80adedae4410.png)
 
 * Layout in ICC (**./Pnr**)
-![1605784457296](https://user-images.githubusercontent.com/58098260/102724387-eded6900-4317-11eb-9a4e-ab056acb1fd6.jpg)
+![ICC](https://user-images.githubusercontent.com/58098260/102724513-ac10f280-4318-11eb-9dbf-d5591986e6dd.jpg)
 
 * Translate layout in Magic (**./Magic**)
 ![Magic](https://user-images.githubusercontent.com/58098260/102724411-02316600-4318-11eb-9c13-08d4a6b7a066.png)
