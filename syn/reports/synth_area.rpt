@@ -1,0 +1,29 @@
+ 
+****************************************
+Report : area
+Design : UART
+Version: G-2012.06-SP2
+Date   : Mon Nov 19 01:14:24 2018
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_ss0p95vn40c (File: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Front_End/Liberty/NLDM/NangateOpenCellLibrary_ss0p95vn40c.db)
+
+Number of ports:                           62
+Number of nets:                           389
+Number of cells:                          339
+Number of combinational cells:            266
+Number of sequential cells:                73
+Number of macros:                           0
+Number of buf/inv:                         51
+Number of references:                      21
+
+Combinational area:        264.936001
+Buf/Inv area:               28.462000
+Noncombinational area:     302.175992
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:           567.111993
+Total area:                 undefined
+1

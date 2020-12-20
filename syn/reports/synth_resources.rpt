@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : resources
+Design : UART
+Version: G-2012.06-SP2
+Date   : Mon Nov 19 01:14:24 2018
+****************************************
+
+Resource Sharing Report for design UART in file ../rtl/UART.v
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r48      | DW01_cmp6    | width=8    |               | eq_17                |
+| tx/r73   | DW01_cmp2    | width=4    |               | tx/gt_98             |
+| tx/r75   | DW01_inc     | width=4    |               | tx/add_106           |
+| tx/r77   | DW01_cmp6    | width=5    |               | tx/eq_117            |
+| rx/r74   | DW01_cmp2    | width=4    |               | rx/gt_101            |
+| rx/r76   | DW01_inc     | width=4    |               | rx/add_109           |
+| rx/r78   | DW01_cmp6    | width=5    |               | rx/eq_120            |
+===============================================================================
+
+
+No implementations to report
+
+No multiplexors to report
+1

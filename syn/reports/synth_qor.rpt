@@ -1,0 +1,68 @@
+ 
+****************************************
+Report : qor
+Design : UART
+Version: G-2012.06-SP2
+Date   : Mon Nov 19 01:14:24 2018
+****************************************
+
+
+  Timing Path Group 'clka'
+  -----------------------------------
+  Levels of Logic:               3.00
+  Critical Path Length:          0.14
+  Critical Path Slack:           7.47
+  Critical Path Clk Period:     20.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                339
+  Buf/Inv Cell Count:              51
+  CT Buf/Inv Cell Count:            1
+  Combinational Cell Count:       266
+  Sequential Cell Count:           73
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      264.936001
+  Noncombinational Area:   302.175992
+  Buf/Inv Area:             28.462000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:               567.111993
+  Design Area:             567.111993
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           389
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: 192.168.64.136
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.00
+  Logic Optimization:                  0.00
+  Mapping Optimization:                0.05
+  -----------------------------------------
+  Overall Compile Time:                0.42
+  Overall Compile Wall Clock Time:     3.26
+
+1

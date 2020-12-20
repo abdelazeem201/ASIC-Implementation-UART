@@ -1,0 +1,120 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : UART
+Version: G-2012.06-SP2
+Date   : Mon Nov 19 01:14:26 2018
+****************************************
+
+Operating Conditions: worst_low   Library: NangateOpenCellLibrary_ss0p95vn40c
+Wire Load Model Mode: top
+
+  Startpoint: reset (input port clocked by clka)
+  Endpoint: rx/next_rstate_reg[1]
+            (rising edge-triggered flip-flop clocked by clka')
+  Path Group: clka
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  UART               5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clka (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     2.00       2.00 f
+  reset (in)                               0.00       2.00 f
+  U41/ZN (NOR2_X1)                         0.04       2.04 r
+  U11/ZN (INV_X1)                          0.03       2.07 f
+  U35/ZN (AOI211_X1)                       0.06       2.13 r
+  rx/next_rstate_reg[1]/D (DFF_X1)         0.01       2.14 r
+  data arrival time                                   2.14
+
+  clock clka' (rise edge)                 10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.35       9.65
+  rx/next_rstate_reg[1]/CK (DFF_X1)        0.00       9.65 r
+  library setup time                      -0.04       9.61
+  data required time                                  9.61
+  -----------------------------------------------------------
+  data required time                                  9.61
+  data arrival time                                  -2.14
+  -----------------------------------------------------------
+  slack (MET)                                         7.47
+
+
+  Startpoint: reset (input port clocked by clka)
+  Endpoint: tx/next_tstate_reg[1]
+            (rising edge-triggered flip-flop clocked by clka')
+  Path Group: clka
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  UART               5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clka (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     2.00       2.00 f
+  reset (in)                               0.00       2.00 f
+  U42/ZN (NOR2_X1)                         0.04       2.04 r
+  U12/ZN (INV_X1)                          0.03       2.07 f
+  U38/ZN (AOI211_X1)                       0.06       2.13 r
+  tx/next_tstate_reg[1]/D (DFF_X1)         0.01       2.14 r
+  data arrival time                                   2.14
+
+  clock clka' (rise edge)                 10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.35       9.65
+  tx/next_tstate_reg[1]/CK (DFF_X1)        0.00       9.65 r
+  library setup time                      -0.04       9.61
+  data required time                                  9.61
+  -----------------------------------------------------------
+  data required time                                  9.61
+  data arrival time                                  -2.14
+  -----------------------------------------------------------
+  slack (MET)                                         7.47
+
+
+  Startpoint: reset (input port clocked by clka)
+  Endpoint: rx/next_rstate_reg[0]
+            (rising edge-triggered flip-flop clocked by clka')
+  Path Group: clka
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  UART               5K_hvratio_1_1        NangateOpenCellLibrary_ss0p95vn40c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clka (rise edge)                   0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     2.00       2.00 f
+  reset (in)                               0.00       2.00 f
+  U41/ZN (NOR2_X1)                         0.04       2.04 r
+  U11/ZN (INV_X1)                          0.03       2.07 f
+  U43/ZN (AOI21_X1)                        0.04       2.11 r
+  rx/next_rstate_reg[0]/D (DFF_X1)         0.01       2.12 r
+  data arrival time                                   2.12
+
+  clock clka' (rise edge)                 10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.35       9.65
+  rx/next_rstate_reg[0]/CK (DFF_X1)        0.00       9.65 r
+  library setup time                      -0.03       9.62
+  data required time                                  9.62
+  -----------------------------------------------------------
+  data required time                                  9.62
+  data arrival time                                  -2.12
+  -----------------------------------------------------------
+  slack (MET)                                         7.50
+
+
+1
