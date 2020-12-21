@@ -1,0 +1,492 @@
+Start CPD check: ::check_tlu_plus_files 
+
+Sanity check for TLU+ vs MW-Tech files:
+ max_tlu+: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/tech/rcxt/FreePDK45_10m_Cmax.tlup
+ min_tlu+: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/tech/rcxt/FreePDK45_10m_Cmin.tlup
+ mapping_file: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/tech/rcxt/FreePDK45_10m.map
+ max_emul_tlu+: **NONE**
+ min_emul_tlu+: **NONE**
+ MW design lib: UART
+
+--------- Sanity Check on TLUPlus Files -------------
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+1
+End CPD check: ::check_tlu_plus_files
+Start CPD check: ::get_placement_area 
+12.000 12.000 91.990 91.800
+End CPD check: ::get_placement_area
+Start CPD check: report_routing_metal_info 
+No ignored layers specified.
+Information: Report design vs library layers and preferred routing directions. (PNR-164)
+ 
+****************************************
+Report : Layers
+Design : UART
+Version: G-2012.06-ICC-SP2
+Date   : Mon Nov 19 02:34:14 2018
+****************************************
+
+Layer Name                   Library             Design              Tool understands
+metal1                       Horizontal          Horizontal          Horizontal
+metal2                       Vertical            Vertical            Vertical
+metal3                       Horizontal          Horizontal          Horizontal
+metal4                       Vertical            Vertical            Vertical
+metal5                       Horizontal          Horizontal          Horizontal
+metal6                       Vertical            Vertical            Vertical
+metal7                       Horizontal          Horizontal          Horizontal
+metal8                       Vertical            Vertical            Vertical
+metal9                       Horizontal          Horizontal          Horizontal
+metal10                      Vertical            Vertical            Vertical
+
+Information: Report track info.  (PNR-165)
+****************************************
+Report track
+Design : UART
+Version: G-2012.06-ICC-SP2
+Date   : Mon Nov 19 02:34:14 2018
+****************************************
+Layer          Direction     Start         Tracks    Pitch          Attr
+------------------------------------------------------------------------
+Attributes :
+         usr : User defined
+         def : DEF defined
+
+metal1             Y         0.1000         741       0.1400          
+metal2             Y         0.1000         741       0.1400          
+metal2             X         0.2200         546       0.1900          
+metal1             X         0.2200         546       0.1900          
+metal3             X         0.2200         546       0.1900          
+metal3             Y         0.2200         273       0.3800          
+metal2             Y         0.2200         273       0.3800          
+metal4             Y         0.2200         273       0.3800          
+metal4             X         0.4100         273       0.3800          
+metal3             X         0.4100         273       0.3800          
+metal5             X         0.4100         273       0.3800          
+metal5             Y         0.6000         136       0.7600          
+metal4             Y         0.6000         136       0.7600          
+metal6             Y         0.6000         136       0.7600          
+metal6             X         0.9800         136       0.7600          
+metal5             X         0.9800         136       0.7600          
+metal7             X         0.9800         136       0.7600          
+metal7             Y         1.3600         67        1.5200          
+metal6             Y         1.3600         67        1.5200          
+metal8             Y         1.3600         67        1.5200          
+metal8             X         2.1200         67        1.5200          
+metal7             X         2.1200         67        1.5200          
+metal9             X         2.1200         67        1.5200          
+metal9             Y         2.8800         33        3.0400          
+metal8             Y         2.8800         33        3.0400          
+metal10            Y         2.8800         33        3.0400          
+metal10            X         4.4000         33        3.0400          
+metal9             X         4.4000         33        3.0400          
+1
+End CPD check: report_routing_metal_info
+Start CPD check: check_track_and_unit 
+
+End CPD check: check_track_and_unit
+Start CPD check: check_layer_direction 
+
+End CPD check: check_layer_direction
+Start CPD check: check_physical_only_ports 
+Warning: No port objects matched '*' (SEL-004)
+[]
+End CPD check: check_physical_only_ports
+Start CPD check: ::check_database 
+************************************************************
+CHECK_DATABASE RESULTS FOR CELL : UART.CEL
+************************************************************
+MWUHIER: Checking for hierarchical internal netlist and flat internal netlist consistency ... 
+MWUHIER: Done with checking hierarchical internal netlist and flat internal netlist consistency. 
+Information: MWUHIER: Number of errors = 0 (MW-348)
+End PG consistent checking.. PG_Pass
+Information: Performing CEL netlist consistency check. (MWDC-118)
+Information: CEL consistency check PASSED. (MWDC-119)
+
+Start UPF checking.
+No UPF infomation. Finish UPF checking.
+1
+End CPD check: ::check_database
+Start CPD check: report_taint -dump_errors 
+1
+End CPD check: report_taint -dump_errors
+Start CPD check: check_for_HFN_dont_touch_nets 
+
+End CPD check: check_for_HFN_dont_touch_nets
+Start CPD check: check_ilm -stage pre_place_opt 
+Information: No ILMs found
+1
+End CPD check: check_ilm -stage pre_place_opt
+Start CPD check: check_block_abstraction -stage pre_place_opt 
+Information: No blocks with abstraction information found
+1
+End CPD check: check_block_abstraction -stage pre_place_opt
+Start CPD check: check_placement_utilization_violation 
+ 
+****************************************
+  Report : Chip Summary
+  Design : UART
+  Version: G-2012.06-ICC-SP2
+  Date   : Mon Nov 19 02:34:14 2018
+****************************************
+Std cell utilization: 8.88%  (2132/(23997-0))
+(Non-fixed + Fixed)
+Std cell utilization: 9.02%  (2132/(23997-354))
+(Non-fixed only)
+Chip area:            23997    sites, bbox (12.00 12.00 91.99 91.80) um
+Std cell area:        2132     sites, (non-fixed:2132   fixed:0)
+                      339      cells, (non-fixed:339    fixed:0)
+Macro cell area:      0        sites
+                      0        cells
+Placement blockages:  0        sites, (excluding fixed std cells)
+                      354      sites, (include fixed std cells & chimney area)
+                      0        sites, (complete p/g net blockages)
+Routing blockages:    0        sites, (partial p/g net blockages)
+                      0        sites, (routing blockages and signal pre-route)
+Lib cell count:       21 
+Avg. std cell width:  1.03 um 
+Site array:           unit     (width: 0.19 um, height: 1.40 um, rows: 57)
+Physical DB scale:    10000 db_unit = 1 um 
+
+ 
+****************************************
+  Report : pnet options
+  Design : UART
+  Version: G-2012.06-ICC-SP2
+  Date   : Mon Nov 19 02:34:14 2018
+****************************************
+
+
+--------------------------------------------------------------------
+Layer      Blockage   Min_width   Min_height   Via_additive     Density
+--------------------------------------------------------------------
+metal1     none          ---         ---       via additive      ---
+metal2     none          ---         ---       via additive      ---
+metal3     none          ---         ---       via additive      ---
+metal4     none          ---         ---       via additive      ---
+metal5     none          ---         ---       via additive      ---
+metal6     none          ---         ---       via additive      ---
+metal7     none          ---         ---       via additive      ---
+metal8     none          ---         ---       via additive      ---
+metal9     none          ---         ---       via additive      ---
+metal10    none          ---         ---       via additive      ---
+
+**********************************
+      Sub-Region Utilization      
+**********************************
+Number of regions with placement utilization 0 - 0.125 is 108 (75.00%)
+Number of regions with placement utilization 0.125 - 0.25 is 36 (25.00%)
+Number of regions with placement utilization 0.25 - 0.375 is 0 (0.00%)
+Number of regions with placement utilization 0.375 - 0.5 is 0 (0.00%)
+Number of regions with placement utilization 0.5 - 0.625 is 0 (0.00%)
+Number of regions with placement utilization 0.625 - 0.75 is 0 (0.00%)
+Number of regions with placement utilization 0.75 - 0.875 is 0 (0.00%)
+Number of regions with placement utilization 0.875 - 1 is 0 (0.00%)
+1
+
+1
+End CPD check: check_placement_utilization_violation
+Start CPD check: cpd_check_tie_connection 
+0
+End CPD check: cpd_check_tie_connection
+Start CPD check: cpd_check_cells_restrictions 
+0
+End CPD check: cpd_check_cells_restrictions
+Start CPD check: check_bound_utilization 
+Checking Bounds Utilization:
+Warning: Nothing implicitly matched '*' (SEL-003)
+0
+End CPD check: check_bound_utilization
+Start CPD check: check_bounds 
+Warning: Nothing implicitly matched '*' (SEL-003)
+
+End CPD check: check_bounds
+Start CPD check: placement_check 
+
+  Loading design 'UART'
+
+
+
+
+Information: The design has 177 physical cells. (PSYN-105)
+
+  Total moveable cell area: 567.1
+  Total fixed cell area: 0.0
+  Total physical cell area: 567.1
+  Core area: (120000 120000 919900 918000)
+false
+End CPD check: placement_check
+Start CPD check: report_fp_placement 
+Reference Point: Lower Left-hand corner of Core Base Array
+Number of plan group pins = 0
+  0 blocks freed
+  0 bytes freed
+*********************************************
+Report     : Virtual Flat Placement
+Design     : UART
+Version    : G-2012.06-ICC-SP2
+Date       : Mon Nov 19 02:34:14 2018
+*********************************************
+
+Total wirelength: 10138.15
+Number of 100x100 tracks cell density regions: 25
+Number of low (< 10%) cell density regions: 13 (0.520%)
+Number of high (> 200%) cell density regions: 0 (0.000%)
+Maximum cell density: 12.93% (at 78 25 91 38)
+Checking hard macro to hard macro overlaps...
+Number of hard macro to hard macro overlaps: 0
+Checking hard macro to std cell overlaps...
+Number of hard macro to std cell overlaps: 0
+Checking plan group to plan group overlaps...
+Number of plan group to plan group overlaps: 0
+Number of TL cells overlapping PG: 0
+Number of cells violating core area: 0
+Total number of cells violating plan group or core area: 0
+1
+End CPD check: report_fp_placement
+Start CPD check: ::check_physical_constraints 
+
+  Loading design 'UART'
+
+
+Total Physical Cells: 177 Fixed: 177 Not fixed :0
+
+Total Area : 94.16 Fixed Area: 94.16 Unfixed Area:0.00
+
+ Physical Library: /home/ahesham/Desktop/Abdelazeem/UART_ASIC/pnr/UART
+
+ Routing layer : metal1    width: 650    pitch: 1400   space: 650
+
+ Routing Layer : metal1 Resistance : 0.076 Capacitance : 0.000194
+
+ Routing layer : metal2    width: 700    pitch: 1900   space: 700
+
+ Routing Layer : metal2 Resistance : 0.076 Capacitance : 0.000194
+
+ Routing layer : metal3    width: 700    pitch: 3800   space: 700
+
+ Routing Layer : metal3 Resistance : 0.076 Capacitance : 0.000194
+
+ Routing layer : metal4    width: 1400    pitch: 3800   space: 1400
+
+ Routing Layer : metal4 Resistance : 0.076 Capacitance : 0.000194
+
+ Routing layer : metal5    width: 1400    pitch: 7600   space: 1400
+
+ Routing Layer : metal5 Resistance : 0.076 Capacitance : 0.000194
+
+ Routing layer : metal6    width: 1400    pitch: 7600   space: 1400
+
+ Routing Layer : metal6 Resistance : 0.076 Capacitance : 0.000194
+
+ Routing layer : metal7    width: 4000    pitch: 15200   space: 4000
+
+ Routing Layer : metal7 Resistance : 0.076 Capacitance : 0.000194
+
+ Routing layer : metal8    width: 4000    pitch: 15200   space: 4000
+
+ Routing Layer : metal8 Resistance : 0.076 Capacitance : 0.000194
+
+ Routing layer : metal9    width: 8000    pitch: 30400   space: 8000
+
+ Routing Layer : metal9 Resistance : 0.076 Capacitance : 0.000194
+
+ Routing layer : metal10    width: 8000    pitch: 30400   space: 8000
+
+ Routing Layer : metal10 Resistance : 0.076 Capacitance : 0.000194
+
+
+ Physical Library: /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Back_End/mdb
+
+
+Total Bounds:0 Group Bounds:0 Move Bounds:0
+[begin initializing data for legality checker]
+Initializing Data Structure ...
+  Reading technology information ...
+    Technology table contains 10 routable metal layers
+    This is considered as a 10-metal-layer design
+    Reading library information from DB ...
+  Reading misc information ...
+    array <unit> has 0 vertical and 57 horizontal rows
+    243 pre-routes for placement blockage/checking
+    11745 pre-routes for map congestion calculation
+  Checking information read in ...
+    design style = Horizontal masters, Horizontal rows
+  Preprocessing design ...
+    splitting rows by natural obstacles ...
+[end initializing data for legality checker]
+
+The maximum cell width in library is 3.230 um (e.g. 17 sites)
+Warning: Placement area is less than specified site width of 17. (PNR-148)
+Narrow Placement Area : (79.07,89.00) (79.45,90.40)
+Narrow Placement Area : (49.24,89.00) (49.62,90.40)
+Narrow Placement Area : (19.41,89.00) (19.79,90.40)
+Narrow Placement Area : (86.48,87.60) (86.86,89.00)
+Narrow Placement Area : (64.06,87.60) (64.44,89.00)
+Narrow Placement Area : (34.23,87.60) (34.61,89.00)
+Narrow Placement Area : (79.07,86.20) (79.45,87.60)
+Narrow Placement Area : (49.24,86.20) (49.62,87.60)
+Narrow Placement Area : (19.41,86.20) (19.79,87.60)
+Narrow Placement Area : (86.48,84.80) (86.86,86.20)
+Narrow Placement Area : (64.06,84.80) (64.44,86.20)
+Narrow Placement Area : (34.23,84.80) (34.61,86.20)
+Narrow Placement Area : (79.07,83.40) (79.45,84.80)
+Narrow Placement Area : (49.24,83.40) (49.62,84.80)
+Narrow Placement Area : (19.41,83.40) (19.79,84.80)
+Narrow Placement Area : (86.48,82.00) (86.86,83.40)
+Narrow Placement Area : (64.06,82.00) (64.44,83.40)
+Narrow Placement Area : (34.23,82.00) (34.61,83.40)
+Narrow Placement Area : (79.07,80.60) (79.45,82.00)
+Narrow Placement Area : (49.24,80.60) (49.62,82.00)
+Narrow Placement Area : (19.41,80.60) (19.79,82.00)
+Narrow Placement Area : (86.48,79.20) (86.86,80.60)
+Narrow Placement Area : (64.06,79.20) (64.44,80.60)
+Narrow Placement Area : (34.23,79.20) (34.61,80.60)
+Narrow Placement Area : (79.07,77.80) (79.45,79.20)
+Narrow Placement Area : (49.24,77.80) (49.62,79.20)
+Narrow Placement Area : (19.41,77.80) (19.79,79.20)
+Narrow Placement Area : (86.48,76.40) (86.86,77.80)
+Narrow Placement Area : (64.06,76.40) (64.44,77.80)
+Narrow Placement Area : (34.23,76.40) (34.61,77.80)
+Narrow Placement Area : (79.07,75.00) (79.45,76.40)
+Narrow Placement Area : (49.24,75.00) (49.62,76.40)
+Narrow Placement Area : (19.41,75.00) (19.79,76.40)
+Narrow Placement Area : (86.48,73.60) (86.86,75.00)
+Narrow Placement Area : (64.06,73.60) (64.44,75.00)
+Narrow Placement Area : (34.23,73.60) (34.61,75.00)
+Narrow Placement Area : (79.07,72.20) (79.45,73.60)
+Narrow Placement Area : (49.24,72.20) (49.62,73.60)
+Narrow Placement Area : (19.41,72.20) (19.79,73.60)
+Narrow Placement Area : (86.48,70.80) (86.86,72.20)
+Narrow Placement Area : (64.06,70.80) (64.44,72.20)
+Narrow Placement Area : (34.23,70.80) (34.61,72.20)
+Narrow Placement Area : (79.07,69.40) (79.45,70.80)
+Narrow Placement Area : (49.24,69.40) (49.62,70.80)
+Narrow Placement Area : (19.41,69.40) (19.79,70.80)
+Narrow Placement Area : (86.48,68.00) (86.86,69.40)
+Narrow Placement Area : (64.06,68.00) (64.44,69.40)
+Narrow Placement Area : (34.23,68.00) (34.61,69.40)
+Narrow Placement Area : (79.07,66.60) (79.45,68.00)
+Narrow Placement Area : (49.24,66.60) (49.62,68.00)
+Narrow Placement Area : (19.41,66.60) (19.79,68.00)
+Narrow Placement Area : (86.48,65.20) (86.86,66.60)
+Narrow Placement Area : (64.06,65.20) (64.44,66.60)
+Narrow Placement Area : (34.23,65.20) (34.61,66.60)
+Narrow Placement Area : (79.07,63.80) (79.45,65.20)
+Narrow Placement Area : (49.24,63.80) (49.62,65.20)
+Narrow Placement Area : (19.41,63.80) (19.79,65.20)
+Narrow Placement Area : (86.48,62.40) (86.86,63.80)
+Narrow Placement Area : (64.06,62.40) (64.44,63.80)
+Narrow Placement Area : (34.23,62.40) (34.61,63.80)
+Narrow Placement Area : (79.07,61.00) (79.45,62.40)
+Narrow Placement Area : (49.24,61.00) (49.62,62.40)
+Narrow Placement Area : (19.41,61.00) (19.79,62.40)
+Narrow Placement Area : (86.48,59.60) (86.86,61.00)
+Narrow Placement Area : (64.06,59.60) (64.44,61.00)
+Narrow Placement Area : (34.23,59.60) (34.61,61.00)
+Narrow Placement Area : (79.07,58.20) (79.45,59.60)
+Narrow Placement Area : (49.24,58.20) (49.62,59.60)
+Narrow Placement Area : (19.41,58.20) (19.79,59.60)
+Narrow Placement Area : (86.48,56.80) (86.86,58.20)
+Narrow Placement Area : (64.06,56.80) (64.44,58.20)
+Narrow Placement Area : (34.23,56.80) (34.61,58.20)
+Narrow Placement Area : (79.07,55.40) (79.45,56.80)
+Narrow Placement Area : (49.24,55.40) (49.62,56.80)
+Narrow Placement Area : (19.41,55.40) (19.79,56.80)
+Narrow Placement Area : (86.48,54.00) (86.86,55.40)
+Narrow Placement Area : (64.06,54.00) (64.44,55.40)
+Narrow Placement Area : (34.23,54.00) (34.61,55.40)
+Narrow Placement Area : (79.07,52.60) (79.45,54.00)
+Narrow Placement Area : (49.24,52.60) (49.62,54.00)
+Narrow Placement Area : (19.41,52.60) (19.79,54.00)
+Narrow Placement Area : (86.48,51.20) (86.86,52.60)
+Narrow Placement Area : (64.06,51.20) (64.44,52.60)
+Narrow Placement Area : (34.23,51.20) (34.61,52.60)
+Narrow Placement Area : (79.07,49.80) (79.45,51.20)
+Narrow Placement Area : (49.24,49.80) (49.62,51.20)
+Narrow Placement Area : (19.41,49.80) (19.79,51.20)
+Narrow Placement Area : (86.48,48.40) (86.86,49.80)
+Narrow Placement Area : (64.06,48.40) (64.44,49.80)
+Narrow Placement Area : (34.23,48.40) (34.61,49.80)
+Narrow Placement Area : (79.07,47.00) (79.45,48.40)
+Narrow Placement Area : (49.24,47.00) (49.62,48.40)
+Narrow Placement Area : (19.41,47.00) (19.79,48.40)
+Narrow Placement Area : (86.48,45.60) (86.86,47.00)
+Narrow Placement Area : (64.06,45.60) (64.44,47.00)
+Narrow Placement Area : (34.23,45.60) (34.61,47.00)
+Narrow Placement Area : (79.07,44.20) (79.45,45.60)
+Narrow Placement Area : (49.24,44.20) (49.62,45.60)
+Narrow Placement Area : (19.41,44.20) (19.79,45.60)
+Narrow Placement Area : (86.48,42.80) (86.86,44.20)
+Narrow Placement Area : (64.06,42.80) (64.44,44.20)
+Narrow Placement Area : (34.23,42.80) (34.61,44.20)
+Narrow Placement Area : (79.07,41.40) (79.45,42.80)
+Narrow Placement Area : (49.24,41.40) (49.62,42.80)
+Narrow Placement Area : (19.41,41.40) (19.79,42.80)
+Narrow Placement Area : (86.48,40.00) (86.86,41.40)
+Narrow Placement Area : (64.06,40.00) (64.44,41.40)
+Narrow Placement Area : (34.23,40.00) (34.61,41.40)
+Narrow Placement Area : (79.07,38.60) (79.45,40.00)
+Narrow Placement Area : (49.24,38.60) (49.62,40.00)
+Narrow Placement Area : (19.41,38.60) (19.79,40.00)
+Narrow Placement Area : (86.48,37.20) (86.86,38.60)
+Narrow Placement Area : (64.06,37.20) (64.44,38.60)
+Narrow Placement Area : (34.23,37.20) (34.61,38.60)
+Narrow Placement Area : (79.07,35.80) (79.45,37.20)
+Narrow Placement Area : (49.24,35.80) (49.62,37.20)
+Narrow Placement Area : (19.41,35.80) (19.79,37.20)
+Narrow Placement Area : (86.48,34.40) (86.86,35.80)
+Narrow Placement Area : (64.06,34.40) (64.44,35.80)
+Narrow Placement Area : (34.23,34.40) (34.61,35.80)
+Narrow Placement Area : (79.07,33.00) (79.45,34.40)
+Narrow Placement Area : (49.24,33.00) (49.62,34.40)
+Narrow Placement Area : (19.41,33.00) (19.79,34.40)
+Narrow Placement Area : (86.48,31.60) (86.86,33.00)
+Narrow Placement Area : (64.06,31.60) (64.44,33.00)
+Narrow Placement Area : (34.23,31.60) (34.61,33.00)
+Narrow Placement Area : (79.07,30.20) (79.45,31.60)
+Narrow Placement Area : (49.24,30.20) (49.62,31.60)
+Narrow Placement Area : (19.41,30.20) (19.79,31.60)
+Narrow Placement Area : (86.48,28.80) (86.86,30.20)
+Narrow Placement Area : (64.06,28.80) (64.44,30.20)
+Narrow Placement Area : (34.23,28.80) (34.61,30.20)
+Narrow Placement Area : (79.07,27.40) (79.45,28.80)
+Narrow Placement Area : (49.24,27.40) (49.62,28.80)
+Narrow Placement Area : (19.41,27.40) (19.79,28.80)
+Narrow Placement Area : (86.48,26.00) (86.86,27.40)
+Narrow Placement Area : (64.06,26.00) (64.44,27.40)
+Narrow Placement Area : (34.23,26.00) (34.61,27.40)
+Narrow Placement Area : (79.07,24.60) (79.45,26.00)
+Narrow Placement Area : (49.24,24.60) (49.62,26.00)
+Narrow Placement Area : (19.41,24.60) (19.79,26.00)
+Narrow Placement Area : (86.48,23.20) (86.86,24.60)
+Narrow Placement Area : (64.06,23.20) (64.44,24.60)
+Narrow Placement Area : (34.23,23.20) (34.61,24.60)
+Narrow Placement Area : (79.07,21.80) (79.45,23.20)
+Narrow Placement Area : (49.24,21.80) (49.62,23.20)
+Narrow Placement Area : (19.41,21.80) (19.79,23.20)
+Narrow Placement Area : (86.48,20.40) (86.86,21.80)
+Narrow Placement Area : (64.06,20.40) (64.44,21.80)
+Narrow Placement Area : (34.23,20.40) (34.61,21.80)
+Narrow Placement Area : (79.07,19.00) (79.45,20.40)
+Narrow Placement Area : (49.24,19.00) (49.62,20.40)
+Narrow Placement Area : (19.41,19.00) (19.79,20.40)
+Narrow Placement Area : (86.48,17.60) (86.86,19.00)
+Narrow Placement Area : (64.06,17.60) (64.44,19.00)
+Narrow Placement Area : (34.23,17.60) (34.61,19.00)
+Narrow Placement Area : (79.07,16.20) (79.45,17.60)
+Narrow Placement Area : (49.24,16.20) (49.62,17.60)
+Narrow Placement Area : (19.41,16.20) (19.79,17.60)
+Narrow Placement Area : (86.48,14.80) (86.86,16.20)
+Narrow Placement Area : (64.06,14.80) (64.44,16.20)
+Narrow Placement Area : (34.23,14.80) (34.61,16.20)
+Narrow Placement Area : (79.07,13.40) (79.45,14.80)
+Narrow Placement Area : (49.24,13.40) (49.62,14.80)
+Narrow Placement Area : (19.41,13.40) (19.79,14.80)
+1
+End CPD check: ::check_physical_constraints
