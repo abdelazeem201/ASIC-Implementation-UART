@@ -4,9 +4,9 @@
 -- Author: Ahmed Abdelazeem
 -- Github: https://github.com/abdelazeem201
 -- Email: ahmed.abdelazeem@outlook.com
--- Description: UART module
+-- Description: uart module
 -- Dependencies: 
--- Since: 2022-03-29 21:09:08
+-- Since: 2022-03-29 19:16:53
 -- LastEditors: ahmed abdelazeem
 --********************************************************************
 -- Module Function
